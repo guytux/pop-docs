@@ -12,8 +12,6 @@ This tutorial can be best divided into 3 steps.
 
 [Cinnamon](http://developer.linuxmint.com/) is the default Desktop Enviroment running on Linux Mint, also aimed torward previous Windows Users.
 
-[Pantheon](https://elementary.io/) is made by Elementary OS and is based torward MacOS users and simplicity of UI.
-
 [Budgie Desktop](https://budgie-desktop.org/home/) is the default DE on Solus, and is highly customizable and simple.
 
 1. Installing it.
@@ -24,9 +22,12 @@ To install the desktop enviroment, simply lookup the command in this table.
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | KDE Plasma          | sudo apt install kubuntu-desktop                                                                                                                      |
 | Budgie Desktop      | sudo apt install budgie-desktop                                                                                                                       |
-| Cinnamon            | sudo apt-get install cinnamon                                                                                                                         |
-| Elementary Pantheon | curl https://gist.githubusercontent.com/kylerschin/bb23ce316be20fcdf397ec46b69a7f20/raw/24ededcca9b17600cbd5de7c34cb476ad20093c3/gistfile1.txt | bash |
+| Cinnamon            | sudo apt-get install cinnamon                                                                                                                         
 
 2. Now, logout, and click in the gear next to the log-in button. Then choose your DE and boot into it.
 
 Now, your ready to rock and roll!
+
+Keep in mind that you can have multiple Desktop Enviroments and can always switch back to Gnome.
+
+to remove, simply do ```sudo apt purge  PACKAGE_NAME```

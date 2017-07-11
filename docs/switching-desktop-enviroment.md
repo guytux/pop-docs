@@ -14,15 +14,20 @@ This tutorial can be best divided into 3 steps.
 
 [Budgie Desktop](https://budgie-desktop.org/home/) is the default DE on Solus, and is highly customizable and simple.
 
+[Gnome](https://www.gnome.org/) Flexable, Widely Adopted, and Slick Desktop Enviroment. Aimed torward beginners.
+(That's why It's pre-installed here.)
+
 1. Installing it.
 
 To install the desktop enviroment, simply lookup the command in this table.
 
 | Desktop Enviroment  | Package Installation                                                                                                                                  |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| KDE Plasma          | sudo apt install kubuntu-desktop                                                                                                                      |
-| Budgie Desktop      | sudo apt install budgie-desktop                                                                                                                       |
-| Cinnamon            | sudo apt-get install cinnamon                                                                                                                         
+| KDE Plasma          | apt install kubuntu-desktop                                                                                                                      |
+| Budgie Desktop      | apt install budgie-desktop                                                                                                                       |
+| Cinnamon            | apt install cinnamon
+|
+| Gnome               | apt install gnome-shell ubuntu-gnome-desktop
 
 2. Now, logout, and click in the gear next to the log-in button. Then choose your DE and boot into it.
 

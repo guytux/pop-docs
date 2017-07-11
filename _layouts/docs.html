@@ -6,20 +6,9 @@ layout: default
   <h1>
     <a href="/docs" title="Back to Docs"><i class="fa fa-arrow-left"></i></a>
     {% if page.title %}{{ page.title }} {% else %} {{ site.title }} {% endif %}
+    <a href="https://github.com/system76/pop-docs/blob/master{{ page.path }}" class="button"><i class="fa fa-github"></i> Edit on GitHub</a>
   </h1>
 </header>
-
-{% if page.title %}
-<header id="page-title">
-    <div class="row">
-        <h1 class="small-12 columns greeting">
-          <a href="https://system76.com/pop" title="Back to Pop! Docs"><i class="fa fa-arrow-left"></i></a>
-          {{ page.title }}
-          <a href="https://github.com/system76/pop-docs/blob/master{{ page.path }}" class="button"><i class="fa fa-github"></i> Edit on GitHub</a>
-        </h1>
-    </div>
-</header>
-{% endif %}
 
 <section class="content docs">
   {{ content }}
